@@ -85,10 +85,10 @@ A scalable backend API for managing support tickets with real-time updates, buil
    - Solution: Configured Pydantic with from_attributes=True and ensured UUIDs were cast correctly.
    - Learning: Bridging database responses with typed models requires careful alignment.
 3. **Real-Time Testing**
-   -Issue: Verifying Ably events required a separate client setup.
-  - Solution: Used a simple JavaScript client to subscribe and log events, confirming broadcasts worked.
-  - Learning: Real-time systems need end-to-end testing beyond API calls.
-4. **Time Constraint**
-  - Issue: Balancing feature completeness with the tight deadline (March 8th, 2025, 12:00 PM).
-  - Solution: Focused on core CRUD and real-time functionality, leveraging FastAPI’s rapid development features.
-  - Learning: Prioritization is key under time pressure.
+   - Issue: Verifying Ably events required a separate client setup.
+   - Solution: Used a simple JavaScript client to subscribe and log events, confirming broadcasts worked.
+   - Learning: Real-time systems need end-to-end testing beyond API calls.
+4.  **Time Constraint**
+   - Issue: Balancing feature completeness with the tight deadline (March 8th, 2025, 12:00 PM).
+   - Solution: Focused on core CRUD and real-time functionality, leveraging FastAPI’s rapid development features.
+   - Learning: Prioritization is key under time pressure.
