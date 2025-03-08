@@ -1,0 +1,22 @@
+# Environment Variables
+.env               # File containing sensitive keys (Supabase, Ably)
+*.env.backup
+
+# Python Bytecode and Cache
+__pycache__/       # Compiled Python files
+*.pyc              # Python bytecode files
+
+
+# Dependency and Build Artifacts
+/site              # Python site-packages
+/dist             # Distribution files
+/build            # Build directories
+
+
+# Logs and Temporary Files
+*.log             # Log files
+*.tmp             # Temporary files
+*.swp             # Swap files from editors like Vim
+
+
+
